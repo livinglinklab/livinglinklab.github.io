@@ -1,0 +1,39 @@
+---
+layout: default
+title: Sensors
+---
+<h1>Latest Sensors</h1>
+
+Please work. I want to sleep.
+<ul>
+<!--   {% for post in site.sensors %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %} -->
+
+  {% for sensor in site.collections %}
+    {% if sensor.path contains "sensors/" %}
+        <!-- <img src="{{ site.baseurl }}{{ image.path }}" alt="sensor" /> -->
+        {{ site.baseurl }}
+    {% endif %}
+{% endfor %}
+</ul>
+
+
+<!-- ---
+layout: default
+title: Blog
+---
+<h1>Latest Posts</h1>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
+ -->
