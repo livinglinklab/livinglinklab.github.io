@@ -2,38 +2,19 @@
 layout: default
 title: Sensors
 ---
-<h1>Latest Sensors</h1>
+<h1>Sensors</h1>
 
-Please work. I want to sleep.
-<ul>
-<!--   {% for post in site.sensors %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
-    </li>
-  {% endfor %} -->
-
-  {% for sensor in site.collections %}
-    {% if sensor.path contains "sensors/" %}
-        <!-- <img src="{{ site.baseurl }}{{ image.path }}" alt="sensor" /> -->
-        {{ site.baseurl }}
-    {% endif %}
-{% endfor %}
-</ul>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+    var url = window.location.href
+    var id = url.substring(url.lastIndexOf('?=') + 2);
+    document.getElementById(id).click(); // Works!
+    //alert(id); // 234234234
+  });
+</script>
 
 
-<!-- ---
-layout: default
-title: Blog
----
-<h1>Latest Posts</h1>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
-    </li>
-  {% endfor %}
-</ul>
- -->
+<a id="TS1" href="https://www.google.com"> Test Sensor 1 </a>
+
