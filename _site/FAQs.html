@@ -32,13 +32,158 @@
       </nav></div>
 </header><main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h1>Frequently Asked Questions</h1>
+        <style>
+	.question{
+		color: #0000ff;
+		font-style: bold;
+	}
+	.question:hover{
+		color: darkblue;
+		cursor: pointer;
+	}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script>
+	$( document ).ready(function() {
+		$(".answer").hide();
+		$(".question").click(function(){
+	  		var elem = $(this).next(".answer");
+	  		// $(".canswer").slideToggle();
+			// $(".canswer").removeClass("canswer");
+	  		// elem.addClass("canswer");
+	  		elem.slideDown(500);
+		});
+	});
+</script>
 
-<h3> How can I become a participant? </h3>
-<ul>
-	<li> Please fill out the following form and a Living Link Lab team member will be in contact with you. </li>
-</ul>
-<h3> What information is being collected about me? How is my privacy protected?</h3>
+<section class="container>">
+	<h1>Frequently Asked Questions</h1>
+
+	<ol>
+		<li>
+			<h3 class="question"> How can I become a participant?</h3>
+			<ul class="answer">
+				<li> Please fill out the following form and a Living Link Lab team member will be in contact with you. </li>
+			</ul>
+		</li>
+		<li>
+			<h3 class="question"> What information is being collected about me? How is my privacy protected?</h3>
+			<ul class= "answer">
+				<li class="question"> <h4> I am a participant </h4></li>
+					<ul class="answer">
+						<li>All studies that relate to this platform has to go through the Institutional Review Board (IRB). See here for the consent form. </li>
+						<li>In addition, participants are provided with an option to choose what information they are providing. The Living Link Lab sensors can be divided into three categories of Environmental Sensing, Human Sensing, and Operational monitoring.</li>
+						<ul>
+							<li class="question">Environmental Sensing</li>
+							<ul class="answer">
+								<li>Include temperature, humidity, air quality and lighting in different locations in the lab. The Living Link Lab interactive map provides an overview of the location and distribution of these sensors in the lab. </li>
+								<li> See the sensor page <a href="/sensors"> here </a> for a full list of the environmental sensors and specifications. </li>
+							</ul>
+							<li class="question"> Human Sensing </li>
+							<ul class="answer">
+								<li>Includes wearable devices and video cameras. </li>
+								<li> Videos are collected through a webcam setup in front of the participant. There are a number of automated approaches are applied to increase the privacy of participants and other Link Lab members. These include background subtraction (to remove people or dynamic changes within the environment), participant recognition (remove any scene that includes other people than consented participants).
+								<li> See the sensor page <a href="/sensors"> here </a> for a full list of the human sensors and specifications. </li>
+							</ul>
+							<li class="question">Operational Monitoring</li>
+							<ul class="answer">
+								<li> Operational monitoring includes energy monitoring, water consumption, and waste and recycling generation. </li>
+								<li> Energy consumption monitoring is conducted at the appliance level and circuit level. To get more details about these sensors, click <a href="/sensors">here</a>. </li>
+								<li>Six water pipes consumption rates are monitored </li>
+							</ul>
+						</ul>
+					</ul>
+				<li class= "question"><h4> I am not a participant</h4></li>
+				<ul class= "answer">
+					<li> We currently collect <b>environmental information</b> within the Link Lab space. This information includes temperature, humidity, air quality and lighting in different locations in the lab. The Living Link Lab interactive map provides an overview of the location and distribution of these sensors in the lab. </li>
+					<li> <b> No videos or personal information are collected </b> if you are not a participant or have not provided consent. </li>
+				</ul>
+			</ul>
+		</li>
+		<li>
+			<h3 class="question"> Are participants paid in this study? </h3>
+			<ul class="answer">
+				<p>
+					<li> Yes. Participants are paid <b>up to $300 per semester</b>. Payments vary based on the level of information being provided by the participants. </li>
+				</p>
+			</ul>
+		</li>
+		<li>
+			<h3 class="question"> What type of information does each sensor collect? </h3>
+			<ul class="answer">
+				<p>
+					<li> Please see the sensor page <a href="/sensors"> here </a> for more information </li>
+				</p>
+			</ul>
+		</li>
+		<li>
+			<h3 class="question"> Where is the data being stored? </h3>
+			<ul class="answer">
+				<p>
+					<li> <b>Environmental, energy and water consumption data</b> are being stored in a database hosted at Rice Hall.</li>
+					<li> <b>Participant videos</b> are initially stored on <a href="https://virginia.service-now.com/its?id=kb_article&sys_id=13f08053db7ac744f032f1f51d9619da" target="_blank">UVABox</a> and upon participant approval, they are moved to a local hard drive. </li>
+					<li> <b>Heart-rate and wearable data</b> are initially stored on <a href="https://aws.amazon.com/s3/" target="_blank">AWS S3 Bucket</a> and then later transferred similarly.</li>
+					<li> For more detail on system architecture and data storages can be found here. </li> 
+				</p>
+			</ul>
+		</li>
+		<li>
+			<h3 class="question"> I have an idea! How can I reach out to collaborate? </h3>
+			<ul class="answer">
+				<p>
+					<li> Fill out the following <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnA1V2PkYuPhk-n4BVg6rfjNsjPKStIEr90gbQdpLz11bPtQ/viewform?usp=sf_link" target="_blank">form</a> </li>
+					<li> Once you fill out the form, a team member will be in contact with you regarding next steps </li>
+					<li> As a note, if your project is selected, you will be asked to <b>submit an IRB </b> under the Living Link Lab umbrella IRB. More information will be shared upon approval of your project. </li>
+				</p>
+			</ul>
+		</li>
+		<li>
+			<h3 class="question"> I want to play with some data, is there a sample data set I can download? </h3>
+			<ul class="answer">
+				<p>
+					<li>We are currently preparing a set of data. Once we have completed the process (cleaning, anonymizing, etc.) we will post it in the news section and here.</li>
+				</p>
+			</ul>
+		</li>
+<!-- 		<li> 
+			<h3> I want to work with a larger data set, how can I initiate this? </h3>
+		</li> -->
+		<li>
+			<h3 class="question"> I found a sensor out of place, what do I do? </h3>
+			<ul class="answer">
+				<p>
+					<li>If you can find it, <b>scan the QR code and hit the maintenance required button</b>. This will help us note the time when it is found, and help us find a bunch mark to filter out invalid data.</li>
+					<li> Put it in the recovery bin at the front desk. </li>
+				</p>
+			</ul>
+		</li>
+		<li> 
+			<h3 class="question"> Who should I contact to learn more about the project? </h3>
+			<ul class="answer">
+				<p>
+					<li> You can send an email to the Living Link Lab team at livinglinklab@virginia.edu. Someone from our team will be in contact with you. </li>
+					<li> To learn more about the current team members, please visit <a href="/#team">here </a>. </li>
+				</p>
+			</ul>
+		</li>
+		<li>
+			<h3 class="question"> I would like to learn more about the system architecture in Living Link Lab. </h3>
+			<ul class="answer">
+				<p>
+					<li> You can find more details about the deployed system architecture <a href="/news">here</a>. </li>
+				</p>
+			</ul>
+		</li>
+		<li>
+			<h3 class="question"> What are some ongoing projects using the Living Link Lab data? </h3>
+			<ul class="answer">
+				<p>
+					<li> You can find a list of ongoing or previous studies that have used the Living Link Lab dataset <a href="/projects">here</a>. </li>
+				</p>
+			</ul>
+		</li>
+	</ol>
+</section>
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>
