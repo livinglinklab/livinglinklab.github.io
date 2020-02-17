@@ -5,15 +5,15 @@
 
 layout: landing
 title: Living Link Lab
-short_descript: Human-Building Research at the University of Virginia
+short_descript: Human-Building Research at the <a href="https://engineering.virginia.edu/link-lab-0" target="_blank">UVa Link Lab </a>
 exclude: true
 
 about_title: Human, Building, and Research
 
-about_description: The Living Link Lab furthers sustainability and wellness by enabling naturalistic in-situ studies of occupant behavior, cognition, and interactions in a large collaborative environment. <!-- <a href="/about" target="_blank"> Specifications </a> -->
+about_description: The Living Link Lab is a research platform that aims to promote sustainability and wellness practices by enabling naturalistic in-situ studies of occupant behavior, cognition, and interactions in a large collaborative environment. 
 
 feature_title: Projects
-feature_description: To find a list of our current and past projects, click <a href="/projects" target="_blank"> here</a>!
+feature_description: To find a list of our current and past projects, click <a href="/projects" target="_blank"> here</a>
 
 exp_project_1: Sensors
 exp_project_1_descript: What sensors do we have in the space? Visit or sensor description page <a href="/sensors" target="_blank"> here </a>
