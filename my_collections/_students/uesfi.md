@@ -1,6 +1,6 @@
 ---
-name: Siavash Usefi
+name: Siavash Yousefi
 description:  Graduate Student
-image_link: https://engineering.virginia.edu/sites/default/files/styles/faculty_headshot/public/IMG_8897.jpg?itok=AB6w8pRJ
+image_link: http://uvabrainlab.com/wp-content/uploads/2019/10/IMG_8874.jpg
 weight: 2
 ---
