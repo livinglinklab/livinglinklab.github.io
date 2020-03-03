@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-19T01:42:45-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Living Link Lab</title><subtitle>The Living Link Lab is a platform at the University of Virginia that enables long term naturalistic occupant studies.</subtitle><entry><title type="html">Welcome to the Living Link Lab!</title><link href="http://localhost:4000/jekyll/update/2020/01/05/welcome-to-jekyll-copy.html" rel="alternate" type="text/html" title="Welcome to the Living Link Lab!" /><published>2020-01-05T19:59:59-08:00</published><updated>2020-01-05T19:59:59-08:00</updated><id>http://localhost:4000/jekyll/update/2020/01/05/welcome-to-jekyll%20copy</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/01/05/welcome-to-jekyll-copy.html">&lt;p&gt;We are soft launching the Living Link Lab framework!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-03T11:51:37-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Living Link Lab</title><subtitle>The Living Link Lab is a platform at the University of Virginia that enables long term naturalistic occupant studies.</subtitle><entry><title type="html">Health, well-being and productivity of Link Lab Residents</title><link href="http://localhost:4000/jekyll/update/2020/03/03/ll_wellbeing.html" rel="alternate" type="text/html" title="Health, well-being and productivity of Link Lab Residents" /><published>2020-03-03T09:00:00-05:00</published><updated>2020-03-03T09:00:00-05:00</updated><id>http://localhost:4000/jekyll/update/2020/03/03/ll_wellbeing</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/03/03/ll_wellbeing.html">&lt;p&gt;The project aims at understanding the relationship between environmental as well as human contexts and health, well-being and productivity of
+individuals working in Link Lab.&lt;/p&gt;
+
+&lt;p&gt;As people go about their daily lives, their everyday experience captured using actively and passively collected data from smartphones, smartwatches or
+other smart devices could prove promising for assessing their health, well-being and productivity. People spend a major portion of their day at work
+and it is estimated that the life expectancy of people in a stressful environment reduces. Also, environmental stress can cause a decline in
+productivity and have negative effects on health and well-being. Thus, in this project we will try to understand how everyday human experience as
+captured by smart devices relates with the well-being of Link Lab residents in the context of different environmental conditions.&lt;/p&gt;
+
+&lt;h3&gt; Team members: &lt;/h3&gt;
+
+&lt;h4&gt; Faculty &lt;/h4&gt;
+&lt;ul&gt;
+	&lt;li&gt; &lt;a href=&quot;https://engineering.virginia.edu/faculty/arsalan-heydarian&quot;&gt; Arsalan Heydarian &lt;/a&gt; &lt;/li&gt;
+	&lt;li&gt; &lt;a href=&quot;https://engineering.virginia.edu/faculty/laura-barnes&quot;&gt; Laura Barnes &lt;/a&gt; &lt;/li&gt;
+	&lt;li&gt; &lt;a href=&quot;https://engineering.virginia.edu/faculty/afsaneh-doryab&quot;&gt; Afsaneh Doryab &lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt; Graduate Students &lt;/h4&gt;
+&lt;h5&gt; PhD Students &lt;/h5&gt;
+&lt;ul&gt;
+	&lt;li&gt; Alan Wang &lt;/li&gt;
+	&lt;li&gt; Navreet Kaur&lt;/li&gt;
+	&lt;li&gt; Xiang Guo&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">The project aims at understanding the relationship between environmental as well as human contexts and health, well-being and productivity of individuals working in Link Lab.</summary></entry><entry><title type="html">Welcome to the Living Link Lab!</title><link href="http://localhost:4000/jekyll/update/2020/01/05/welcome-to-jekyll-copy.html" rel="alternate" type="text/html" title="Welcome to the Living Link Lab!" /><published>2020-01-05T22:59:59-05:00</published><updated>2020-01-05T22:59:59-05:00</updated><id>http://localhost:4000/jekyll/update/2020/01/05/welcome-to-jekyll%20copy</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/01/05/welcome-to-jekyll-copy.html">&lt;p&gt;We are soft launching the Living Link Lab framework!&lt;/p&gt;
 
 &lt;p&gt;We are testing the following:&lt;/p&gt;
 
@@ -8,12 +32,4 @@
 	&lt;li&gt; Test the navigation of users through our information site &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">We are soft launching the Living Link Lab framework!</summary></entry><entry><title type="html">Example Project</title><link href="http://localhost:4000/jekyll/update/2020/01/05/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Example Project" /><published>2020-01-05T19:59:59-08:00</published><updated>2020-01-05T19:59:59-08:00</updated><id>http://localhost:4000/jekyll/update/2020/01/05/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/01/05/welcome-to-jekyll.html">&lt;p&gt;The project investigates cookie eating behavior based on number of hours Sesame Street was watched.&lt;/p&gt;
-
-&lt;p&gt;Link to the publication &lt;a href=&quot;https://www.sesamestreet.org/?gclid=EAIaIQobChMI7orO-9jy5gIVlLfsCh1A-Q6HEAAYASAAEgKNk_D_BwE&quot; target=&quot;_blank&quot;&gt; here &lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt; Team members: &lt;/h3&gt;
-&lt;ul&gt;
-	&lt;li&gt; Elmo &lt;/li&gt;
-	&lt;li&gt; Cookie Monster &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">The project investigates cookie eating behavior based on number of hours Sesame Street was watched.</summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">We are soft launching the Living Link Lab framework!</summary></entry></feed>
