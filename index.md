@@ -12,14 +12,14 @@ about_title: Human, Building, and Research
 
 about_description: The Living Link Lab is a research platform that aims to promote sustainability and wellness practices by enabling naturalistic in-situ studies of occupant behavior, cognition, and interactions in a large collaborative environment. 
 
-feature_title: Projects
-feature_description: To find a list of our current and past projects, click <a href="/projects" target="_blank"> here</a>
+feature_title: <a href="/projects" target="_blank">Projects</a>
+feature_description: Find a list of our current and past projects
 
-exp_project_1: Sensors
-exp_project_1_descript: What sensors do we have in the space? Visit or sensor description page <a href="/sensors" target="_blank"> here </a>
+exp_project_1: <a href="/sensors" target="_blank">Sensors</a>
+exp_project_1_descript: What sensors do we have in the space? Visit our sensor description page
 
-exp_project_2: Frequently Asked Questions
-exp_project_2_descript: Want to learn more about the platform? Visit our FAQs page <a href="/FAQs" target="_blank"> here </a>
+exp_project_2: <a href="/FAQs" target="_blank">Frequently Asked Questions</a>
+exp_project_2_descript: Want to learn more about the platform? Visit our FAQs page
 
 address: 268 Olsson Hall 151 Engineer's Way
 email: livinglinklab@virginia.edu
