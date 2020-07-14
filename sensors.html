@@ -13,13 +13,13 @@ title: Sensors
   $(document).ready(function(){
     var url = window.location.href
     var id = url.substring(url.lastIndexOf('?=') + 2);
+	var notification = document.getElementById("noti");
 	if (id.length < 5) {
-		  $("#noti").show();
+		  notification.style.display = 'block';
 		  $('#alert-message').html('QR Code Scanned!   <b>' + id + '</b>');
 
 	} 
 	else {
-		 $("#noti").hide();
 	}
 	
 	$("#noti").click(function () {
@@ -29,119 +29,146 @@ title: Sensors
   });
 </script>
 
+<div id = "noti">
 <div>
-	<a id = "noti">
-			<div  id = "alert-message" style= "float:left"></div>
+			<a id = "alert-message">
+			</a>
 			<b style = "float:right">More Information</b>
-	</a>
+
 </div>
-  
+</div>
+
+
 <h1>Sensors</h1>
 
-<h3><b>Powerblade</b></h3>
-<div>
-	<a id="PB2" href="http://livinglinklab.com/livinglinklab/devices/PB2/">Powerblade (PB2)</a> <br>
-	<a id="PB4" href="http://livinglinklab.com/livinglinklab/devices/PB4/">Powerblade (PB4)</a><br>
-	<a id="PB5" href="http://livinglinklab.com/livinglinklab/devices/PB5/">Powerblade (PB5)</a><br>
-	<a id="PB6" href="http://livinglinklab.com/livinglinklab/devices/PB6/">Powerblade (PB6)</a><br>
-	<a id="PB7" href="http://livinglinklab.com/livinglinklab/devices/PB7/">Powerblade (PB7)</a><br>
-	<a id="PB8" href="http://livinglinklab.com/livinglinklab/devices/PB8/">Powerblade (PB8)</a><br>
-	<a id="PB10" href="http://livinglinklab.com/livinglinklab/devices/PB10/">Powerblade (PB10)</a><br>
-	<a id="PB11" href="http://livinglinklab.com/livinglinklab/devices/PB11/">Powerblade (PB11)</a><br>
-	<a id="PB12" href="http://livinglinklab.com/livinglinklab/devices/PB12/">Powerblade (PB12)</a><br>
-	<a id="PB13" href="http://livinglinklab.com/livinglinklab/devices/PB13/">Powerblade (PB13)</a><br>
-	<a id="PB14" href="http://livinglinklab.com/livinglinklab/devices/PB14/">Powerblade (PB14)</a><br>
-	<a id="PB15" href="http://livinglinklab.com/livinglinklab/devices/PB15/">Powerblade (PB15)</a><br>
-	<a id="PB16" href="http://livinglinklab.com/livinglinklab/devices/PB16/">Powerblade (PB16)</a><br>
-	<a id="PB17" href="http://livinglinklab.com/livinglinklab/devices/PB17/">Powerblade (PB17)</a><br><br>
-	<div style="width: 100%;height: auto;margin: 10px; position: relative;"><img src= "img/PowerBlade.svg"></div>
+<div class="container">
+		<div>
+			<h3><b>Powerblade</b></h3>
+			<a id="PB2" href="http://livinglinklab.com/livinglinklab/devices/PB2/">Powerblade (PB2)</a> <br>
+			<a id="PB4" href="http://livinglinklab.com/livinglinklab/devices/PB4/">Powerblade (PB4)</a><br>
+			<a id="PB5" href="http://livinglinklab.com/livinglinklab/devices/PB5/">Powerblade (PB5)</a><br>
+			<a id="PB6" href="http://livinglinklab.com/livinglinklab/devices/PB6/">Powerblade (PB6)</a><br>
+			<a id="PB7" href="http://livinglinklab.com/livinglinklab/devices/PB7/">Powerblade (PB7)</a><br>
+			<a id="PB8" href="http://livinglinklab.com/livinglinklab/devices/PB8/">Powerblade (PB8)</a><br>
+			<a id="PB10" href="http://livinglinklab.com/livinglinklab/devices/PB10/">Powerblade (PB10)</a><br>
+			<a id="PB11" href="http://livinglinklab.com/livinglinklab/devices/PB11/">Powerblade (PB11)</a><br>
+			<a id="PB12" href="http://livinglinklab.com/livinglinklab/devices/PB12/">Powerblade (PB12)</a><br>
+			<a id="PB13" href="http://livinglinklab.com/livinglinklab/devices/PB13/">Powerblade (PB13)</a><br>
+			<a id="PB14" href="http://livinglinklab.com/livinglinklab/devices/PB14/">Powerblade (PB14)</a><br>
+			<a id="PB15" href="http://livinglinklab.com/livinglinklab/devices/PB15/">Powerblade (PB15)</a><br>
+			<a id="PB16" href="http://livinglinklab.com/livinglinklab/devices/PB16/">Powerblade (PB16)</a><br>
+			<a id="PB17" href="http://livinglinklab.com/livinglinklab/devices/PB17/">Powerblade (PB17)</a><br><br>
+		</div>
+		<div>
+			<img class= "uml" src= "img/PB.svg">
+		</div>
 </div>
-	
+<br>
 
-<h3><b>Gateway</b></h3>
-<div>
+<div class = "container">
+	<div>
+	<h3><b>Gateway</b></h3>
 	<a id="GW3" href="http://livinglinklab.com/livinglinklab/devices/GW3/">Gateway (GW3)</a><br>
 	<a id="GW5" href="http://livinglinklab.com/livinglinklab/devices/GW5/">Gateway (GW5)</a><br>
 	<a id="GW6" href="http://livinglinklab.com/livinglinklab/devices/GW6/">Gateway (GW6)</a><br>
-	
+	</div>
 </div>
+<br>
 
-<h3><b>Motion</b></h3>
-<div>
-<a id="MS1" href="http://livinglinklab.com/livinglinklab/devices/MS1/">Motion (MS1)</a><br>
-<a id="MS2" href="http://livinglinklab.com/livinglinklab/devices/MS2/">Motion (MS2)</a><br>
-<div style="width: 100%;height: auto; margin: 10px; position: relative;"><img src= "img/Motion.svg"></div>
+<div class = "container">
+	<div>
+		<h3><b>Motion</b></h3>
+		<a id="MS1" href="http://livinglinklab.com/livinglinklab/devices/MS1/">Motion (MS1)</a><br>
+		<a id="MS2" href="http://livinglinklab.com/livinglinklab/devices/MS2/">Motion (MS2)</a><br>
+	</div>
+	<div>
+		<img class= "uml" src= "img/MS.svg">
+	</div>
 </div>
+<br>
 
-<h3><b>Dual Motion</b></h3>
-<div>
-	<a id="DTMS1" href="http://livinglinklab.com/livinglinklab/devices/DTMS1/">Dual Motion (DTMS1)</a><br>
-	<a id="DTMS2" href="http://livinglinklab.com/livinglinklab/devices/DTMS2/">Dual Motion (DTMS2)</a><br>
-	<a id="DTMS3" href="http://livinglinklab.com/livinglinklab/devices/DTMS3/">Dual Motion (DTMS3)</a><br>
-	<a id="DTMS4" href="http://livinglinklab.com/livinglinklab/devices/DTMS4/">Dual Motion (DTMS4)</a><br>
-	<a id="DTMS5" href="http://livinglinklab.com/livinglinklab/devices/DTMS5/">Dual Motion (DTMS5)</a><br>
-	<a id="DTMS6" href="http://livinglinklab.com/livinglinklab/devices/DTMS6/">Dual Motion (DTMS6)</a><br>
-	<a id="DTMS7" href="http://livinglinklab.com/livinglinklab/devices/DTMS7/">Dual Motion (DTMS7)</a><br>
-	<a id="DTMS10" href="http://livinglinklab.com/livinglinklab/devices/DTMS10/">Dual Motion (DTMS10)</a><br>
-	<a id="DTMS11" href="http://livinglinklab.com/livinglinklab/devices/DTMS11/">Dual Motion (DTMS11)</a><br>
-	<a id="DTMS12" href="http://livinglinklab.com/livinglinklab/devices/DTMS12/">Dual Motion (DTMS12)</a><br>
-	<a id="DTMS13" href="http://livinglinklab.com/livinglinklab/devices/DTMS13/">Dual Motion (DTMS13)</a><br>
-	<a id="DTMS14" href="http://livinglinklab.com/livinglinklab/devices/DTMS14/">Dual Motion (DTMS14)</a><br>
-	<a id="DTMS15" href="http://livinglinklab.com/livinglinklab/devices/DTMS15/">Dual Motion (DTMS15)</a><br>
-	<a id="DTMS16" href="http://livinglinklab.com/livinglinklab/devices/DTMS16/">Dual Motion (DTMS16)</a><br>
-	<a id="DTMS17" href="http://livinglinklab.com/livinglinklab/devices/DTMS17/">Dual Motion (DTMS17)</a><br>
-	<a id="DTMS18" href="http://livinglinklab.com/livinglinklab/devices/DTMS18/">Dual Motion (DTMS18)</a><br>
-	<a id="DTMS19" href="http://livinglinklab.com/livinglinklab/devices/DTMS19/">Dual Motion (DTMS19)</a><br>
-	<div style="width: 100%;height: auto; margin: 10px; position: relative;"><img src= "img/DualMotion.svg"></div>
+<div class = "container">
+	<div>
+		<h3><b>Dual Motion</b></h3>
+		<a id="DTMS1" href="http://livinglinklab.com/livinglinklab/devices/DTMS1/">Dual Motion (DTMS1)</a><br>
+		<a id="DTMS2" href="http://livinglinklab.com/livinglinklab/devices/DTMS2/">Dual Motion (DTMS2)</a><br>
+		<a id="DTMS3" href="http://livinglinklab.com/livinglinklab/devices/DTMS3/">Dual Motion (DTMS3)</a><br>
+		<a id="DTMS4" href="http://livinglinklab.com/livinglinklab/devices/DTMS4/">Dual Motion (DTMS4)</a><br>
+		<a id="DTMS5" href="http://livinglinklab.com/livinglinklab/devices/DTMS5/">Dual Motion (DTMS5)</a><br>
+		<a id="DTMS6" href="http://livinglinklab.com/livinglinklab/devices/DTMS6/">Dual Motion (DTMS6)</a><br>
+		<a id="DTMS7" href="http://livinglinklab.com/livinglinklab/devices/DTMS7/">Dual Motion (DTMS7)</a><br>
+		<a id="DTMS10" href="http://livinglinklab.com/livinglinklab/devices/DTMS10/">Dual Motion (DTMS10)</a><br>
+		<a id="DTMS11" href="http://livinglinklab.com/livinglinklab/devices/DTMS11/">Dual Motion (DTMS11)</a><br>
+		<a id="DTMS12" href="http://livinglinklab.com/livinglinklab/devices/DTMS12/">Dual Motion (DTMS12)</a><br>
+		<a id="DTMS13" href="http://livinglinklab.com/livinglinklab/devices/DTMS13/">Dual Motion (DTMS13)</a><br>
+		<a id="DTMS14" href="http://livinglinklab.com/livinglinklab/devices/DTMS14/">Dual Motion (DTMS14)</a><br>
+		<a id="DTMS15" href="http://livinglinklab.com/livinglinklab/devices/DTMS15/">Dual Motion (DTMS15)</a><br>
+		<a id="DTMS16" href="http://livinglinklab.com/livinglinklab/devices/DTMS16/">Dual Motion (DTMS16)</a><br>
+		<a id="DTMS17" href="http://livinglinklab.com/livinglinklab/devices/DTMS17/">Dual Motion (DTMS17)</a><br>
+		<a id="DTMS18" href="http://livinglinklab.com/livinglinklab/devices/DTMS18/">Dual Motion (DTMS18)</a><br>
+		<a id="DTMS19" href="http://livinglinklab.com/livinglinklab/devices/DTMS19/">Dual Motion (DTMS19)</a><br>
+	</div>
+	<div>
+	<img class= "uml" src= "img/DTMS.svg">
+	</div>
 </div>
+<br>
 
-<h3><b>Awair</b></h3>
-<div>
-	<a id="AW1" href="http://livinglinklab.com/livinglinklab/devices/AW1/">Awair (AW1)</a><br>
-	<a id="AW2" href="http://livinglinklab.com/livinglinklab/devices/AW2/">Awair (AW2)</a><br>
-	<a id="AW3" href="http://livinglinklab.com/livinglinklab/devices/AW3/">Awair (AW3)</a><br>
-	<a id="AW4" href="http://livinglinklab.com/livinglinklab/devices/AW4/">Awair (AW4)</a><br>
-	<a id="AW5" href="http://livinglinklab.com/livinglinklab/devices/AW5/">Awair (AW5)</a><br>
-	<a id="AW6" href="http://livinglinklab.com/livinglinklab/devices/AW6/">Awair (AW6)</a><br>
-	<a id="AW7" href="http://livinglinklab.com/livinglinklab/devices/AW7/">Awair (AW7)</a><br>
-	<a id="AW8" href="http://livinglinklab.com/livinglinklab/devices/AW8/">Awair (AW8)</a><br>
-	<a id="AW9" href="http://livinglinklab.com/livinglinklab/devices/AW9/">Awair (AW9)</a><br>
-	<a id="AW10" href="http://livinglinklab.com/livinglinklab/devices/AW10/">Awair (AW10)</a><br>
-	<a id="AW11" href="http://livinglinklab.com/livinglinklab/devices/AW11/">Awair (AW11)</a><br>
-	<div style="width: 100%;height: auto; margin: 10px; position: relative;"><img src= "img/Awair.svg"></div>
+<div class= "container">
+	<div>
+		<h3><b>Awair</b></h3>
+		<a id="AW1" href="http://livinglinklab.com/livinglinklab/devices/AW1/">Awair (AW1)</a><br>
+		<a id="AW2" href="http://livinglinklab.com/livinglinklab/devices/AW2/">Awair (AW2)</a><br>
+		<a id="AW3" href="http://livinglinklab.com/livinglinklab/devices/AW3/">Awair (AW3)</a><br>
+		<a id="AW4" href="http://livinglinklab.com/livinglinklab/devices/AW4/">Awair (AW4)</a><br>
+		<a id="AW5" href="http://livinglinklab.com/livinglinklab/devices/AW5/">Awair (AW5)</a><br>
+		<a id="AW6" href="http://livinglinklab.com/livinglinklab/devices/AW6/">Awair (AW6)</a><br>
+		<a id="AW7" href="http://livinglinklab.com/livinglinklab/devices/AW7/">Awair (AW7)</a><br>
+		<a id="AW8" href="http://livinglinklab.com/livinglinklab/devices/AW8/">Awair (AW8)</a><br>
+		<a id="AW9" href="http://livinglinklab.com/livinglinklab/devices/AW9/">Awair (AW9)</a><br>
+		<a id="AW10" href="http://livinglinklab.com/livinglinklab/devices/AW10/">Awair (AW10)</a><br>
+		<a id="AW11" href="http://livinglinklab.com/livinglinklab/devices/AW11/">Awair (AW11)</a><br>
+	</div>
+	<div><img src= "img/AW.svg">
+	</div>
 </div>
+<br>
 
-<h3><b>Door Sensors</b></h3>
-<div>
-	<a id="DS1" href="http://livinglinklab.com/livinglinklab/devices/DS1/">Door Sensors (DS1)</a><br>
-	<a id="DS2" href="http://livinglinklab.com/livinglinklab/devices/DS2/">Door Sensors (DS2)</a><br>
-	<a id="DS3" href="http://livinglinklab.com/livinglinklab/devices/DS3/">Door Sensors (DS3)</a><br>
-	<a id="DS4" href="http://livinglinklab.com/livinglinklab/devices/DS4/">Door Sensors (DS4)</a><br>
-	<a id="DS5" href="http://livinglinklab.com/livinglinklab/devices/DS5/">Door Sensors (DS5)</a><br>
-	<a id="DS6" href="http://livinglinklab.com/livinglinklab/devices/DS6/">Door Sensors (DS6)</a><br>
-	<a id="DS7" href="http://livinglinklab.com/livinglinklab/devices/DS7/">Door Sensors (DS7)</a><br>
-	<a id="DS8" href="http://livinglinklab.com/livinglinklab/devices/DS8/">Door Sensors (DS8)</a><br>
-	<a id="DS9" href="http://livinglinklab.com/livinglinklab/devices/DS9/">Door Sensors (DS9)</a><br>
-	<a id="DS10" href="http://livinglinklab.com/livinglinklab/devices/DS10/">Door Sensors (DS10)</a><br>
-	<a id="DS11" href="http://livinglinklab.com/livinglinklab/devices/DS11/">Door Sensors (DS11)</a><br>
-	<a id="DS14" href="http://livinglinklab.com/livinglinklab/devices/DS14/">Door Sensors (DS14)</a><br>
-	<a id="DS15" href="http://livinglinklab.com/livinglinklab/devices/DS15/">Door Sensors (DS15)</a><br>
-	<a id="DS16" href="http://livinglinklab.com/livinglinklab/devices/DS16/">Door Sensors (DS16)</a><br>
-	<a id="DS17" href="http://livinglinklab.com/livinglinklab/devices/DS17/">Door Sensors (DS17)</a><br>
-	<a id="DS18" href="http://livinglinklab.com/livinglinklab/devices/DS18/">Door Sensors (DS18)</a><br>
-	<a id="DS19" href="http://livinglinklab.com/livinglinklab/devices/DS19/">Door Sensors (DS19)</a><br>
-	<a id="DS21" href="http://livinglinklab.com/livinglinklab/devices/DS21/">Door Sensors (DS21)</a><br>
-	<a id="DS22" href="http://livinglinklab.com/livinglinklab/devices/DS22/">Door Sensors (DS22)</a><br>
-	<a id="DS23" href="http://livinglinklab.com/livinglinklab/devices/DS23/">Door Sensors (DS23)</a><br>
-	<a id="DS24" href="http://livinglinklab.com/livinglinklab/devices/DS24/">Door Sensors (DS24)</a><br>
-	<a id="DS25" href="http://livinglinklab.com/livinglinklab/devices/DS25/">Door Sensors (DS25)</a><br>
-	<a id="DS26" href="http://livinglinklab.com/livinglinklab/devices/DS26/">Door Sensors (DS26)</a><br>
-	<a id="DS27" href="http://livinglinklab.com/livinglinklab/devices/DS27/">Door Sensors (DS27)</a><br>
-	<a id="DS28" href="http://livinglinklab.com/livinglinklab/devices/DS28/">Door Sensors (DS28)</a><br>
-	<a id="DS29" href="http://livinglinklab.com/livinglinklab/devices/DS29/">Door Sensors (DS29)</a><br>
-	<a id="DS30" href="http://livinglinklab.com/livinglinklab/devices/DS30/">Door Sensors (DS30)</a><br>
-	<div style="width: 100%;height: auto; margin: 10px; position: relative;"><img src= "img/DoorSensor.svg"></div>
+<div class = "container">
+	<div>
+		<h3><b>Door Sensors</b></h3>
+		<a id="DS1" href="http://livinglinklab.com/livinglinklab/devices/DS1/">Door Sensors (DS1)</a><br>
+		<a id="DS2" href="http://livinglinklab.com/livinglinklab/devices/DS2/">Door Sensors (DS2)</a><br>
+		<a id="DS3" href="http://livinglinklab.com/livinglinklab/devices/DS3/">Door Sensors (DS3)</a><br>
+		<a id="DS4" href="http://livinglinklab.com/livinglinklab/devices/DS4/">Door Sensors (DS4)</a><br>
+		<a id="DS5" href="http://livinglinklab.com/livinglinklab/devices/DS5/">Door Sensors (DS5)</a><br>
+		<a id="DS6" href="http://livinglinklab.com/livinglinklab/devices/DS6/">Door Sensors (DS6)</a><br>
+		<a id="DS7" href="http://livinglinklab.com/livinglinklab/devices/DS7/">Door Sensors (DS7)</a><br>
+		<a id="DS8" href="http://livinglinklab.com/livinglinklab/devices/DS8/">Door Sensors (DS8)</a><br>
+		<a id="DS9" href="http://livinglinklab.com/livinglinklab/devices/DS9/">Door Sensors (DS9)</a><br>
+		<a id="DS10" href="http://livinglinklab.com/livinglinklab/devices/DS10/">Door Sensors (DS10)</a><br>
+		<a id="DS11" href="http://livinglinklab.com/livinglinklab/devices/DS11/">Door Sensors (DS11)</a><br>
+		<a id="DS14" href="http://livinglinklab.com/livinglinklab/devices/DS14/">Door Sensors (DS14)</a><br>
+		<a id="DS15" href="http://livinglinklab.com/livinglinklab/devices/DS15/">Door Sensors (DS15)</a><br>
+		<a id="DS16" href="http://livinglinklab.com/livinglinklab/devices/DS16/">Door Sensors (DS16)</a><br>
+		<a id="DS17" href="http://livinglinklab.com/livinglinklab/devices/DS17/">Door Sensors (DS17)</a><br>
+		<a id="DS18" href="http://livinglinklab.com/livinglinklab/devices/DS18/">Door Sensors (DS18)</a><br>
+		<a id="DS19" href="http://livinglinklab.com/livinglinklab/devices/DS19/">Door Sensors (DS19)</a><br>
+		<a id="DS21" href="http://livinglinklab.com/livinglinklab/devices/DS21/">Door Sensors (DS21)</a><br>
+		<a id="DS22" href="http://livinglinklab.com/livinglinklab/devices/DS22/">Door Sensors (DS22)</a><br>
+		<a id="DS23" href="http://livinglinklab.com/livinglinklab/devices/DS23/">Door Sensors (DS23)</a><br>
+		<a id="DS24" href="http://livinglinklab.com/livinglinklab/devices/DS24/">Door Sensors (DS24)</a><br>
+		<a id="DS25" href="http://livinglinklab.com/livinglinklab/devices/DS25/">Door Sensors (DS25)</a><br>
+		<a id="DS26" href="http://livinglinklab.com/livinglinklab/devices/DS26/">Door Sensors (DS26)</a><br>
+		<a id="DS27" href="http://livinglinklab.com/livinglinklab/devices/DS27/">Door Sensors (DS27)</a><br>
+		<a id="DS28" href="http://livinglinklab.com/livinglinklab/devices/DS28/">Door Sensors (DS28)</a><br>
+		<a id="DS29" href="http://livinglinklab.com/livinglinklab/devices/DS29/">Door Sensors (DS29)</a><br>
+		<a id="DS30" href="http://livinglinklab.com/livinglinklab/devices/DS30/">Door Sensors (DS30)</a><br>
+	</div>
+	<div><img src= "img/DS.svg">
+	</div>
 </div>
+<br>
 
 <h3><b>Estimote</b></h3>
 <a id="BC1" href="http://livinglinklab.com/livinglinklab/devices/BC1/">Estimote (BC1)</a><br>
@@ -233,51 +260,57 @@ title: Sensors
 <a id="BC91" href="http://livinglinklab.com/livinglinklab/devices/BC91/">Estimote (BC91)</a><br>
 <a id="BC92" href="http://livinglinklab.com/livinglinklab/devices/BC92/">Estimote (BC92)</a><br>
 <a id="BC93" href="http://livinglinklab.com/livinglinklab/devices/BC93/">Estimote (BC93)</a><br>
+<br>
 
-<h3><b>TempHumidity</b></h3>
-<div>
-	<a id="TH2" href="http://livinglinklab.com/livinglinklab/devices/TH2/">TempHumidity (TH2)</a><br>
-	<a id="TH3" href="http://livinglinklab.com/livinglinklab/devices/TH3/">TempHumidity (TH3)</a><br>
-	<a id="TH4" href="http://livinglinklab.com/livinglinklab/devices/TH4/">TempHumidity (TH4)</a><br>
-	<a id="TH5" href="http://livinglinklab.com/livinglinklab/devices/TH5/">TempHumidity (TH5)</a><br>
-	<a id="TH6" href="http://livinglinklab.com/livinglinklab/devices/TH6/">TempHumidity (TH6)</a><br>
-	<a id="TH7" href="http://livinglinklab.com/livinglinklab/devices/TH7/">TempHumidity (TH7)</a><br>
-	<a id="TH8" href="http://livinglinklab.com/livinglinklab/devices/TH8/">TempHumidity (TH8)</a><br>
-	<a id="TH9" href="http://livinglinklab.com/livinglinklab/devices/TH9/">TempHumidity (TH9)</a><br>
-	<a id="TH10" href="http://livinglinklab.com/livinglinklab/devices/TH10/">TempHumidity (TH10)</a><br>
-	<a id="TH11" href="http://livinglinklab.com/livinglinklab/devices/TH11/">TempHumidity (TH11)</a><br>
-	<a id="TH12" href="http://livinglinklab.com/livinglinklab/devices/TH12/">TempHumidity (TH12)</a><br>
-	<a id="TH13" href="http://livinglinklab.com/livinglinklab/devices/TH13/">TempHumidity (TH13)</a><br>
-	<a id="TH14" href="http://livinglinklab.com/livinglinklab/devices/TH14/">TempHumidity (TH14)</a><br>
-	<a id="TH16" href="http://livinglinklab.com/livinglinklab/devices/TH16/">TempHumidity (TH16)</a><br>
-	<a id="TH17" href="http://livinglinklab.com/livinglinklab/devices/TH17/">TempHumidity (TH17)</a><br>
-	<a id="TH18" href="http://livinglinklab.com/livinglinklab/devices/TH18/">TempHumidity (TH18)</a><br>
-	<a id="TH19" href="http://livinglinklab.com/livinglinklab/devices/TH19/">TempHumidity (TH19)</a><br>
-	<a id="TH20" href="http://livinglinklab.com/livinglinklab/devices/TH20/">TempHumidity (TH20)</a><br>
-	<a id="TH21" href="http://livinglinklab.com/livinglinklab/devices/TH21/">TempHumidity (TH21)</a><br>
-	<a id="TH22" href="http://livinglinklab.com/livinglinklab/devices/TH22/">TempHumidity (TH22)</a><br>
-	<a id="TH23" href="http://livinglinklab.com/livinglinklab/devices/TH23/">TempHumidity (TH23)</a><br>
-	<a id="TH24" href="http://livinglinklab.com/livinglinklab/devices/TH24/">TempHumidity (TH24)</a><br>
-	<a id="TH25" href="http://livinglinklab.com/livinglinklab/devices/TH25/">TempHumidity (TH25)</a><br>
-	<a id="TH26" href="http://livinglinklab.com/livinglinklab/devices/TH26/">TempHumidity (TH26)</a><br>
-	<a id="TH27" href="http://livinglinklab.com/livinglinklab/devices/TH27/">TempHumidity (TH27)</a><br>
-	<a id="TH28" href="http://livinglinklab.com/livinglinklab/devices/TH28/">TempHumidity (TH28)</a><br>
-	<a id="TH29" href="http://livinglinklab.com/livinglinklab/devices/TH29/">TempHumidity (TH29)</a><br>
-	<a id="TH30" href="http://livinglinklab.com/livinglinklab/devices/TH30/">TempHumidity (TH30)</a><br>
-	<a id="TH31" href="http://livinglinklab.com/livinglinklab/devices/TH31/">TempHumidity (TH31)</a><br>
-	<a id="TH32" href="http://livinglinklab.com/livinglinklab/devices/TH32/">TempHumidity (TH32)</a><br>
-	<a id="TH33" href="http://livinglinklab.com/livinglinklab/devices/TH33/">TempHumidity (TH33)</a><br>
-	<a id="TH34" href="http://livinglinklab.com/livinglinklab/devices/TH34/">TempHumidity (TH34)</a><br>
-	<a id="TH35" href="http://livinglinklab.com/livinglinklab/devices/TH35/">TempHumidity (TH35)</a><br>
-	<a id="TH38" href="http://livinglinklab.com/livinglinklab/devices/TH38/">TempHumidity (TH38)</a><br>
-	<a id="TH39" href="http://livinglinklab.com/livinglinklab/devices/TH39/">TempHumidity (TH39)</a><br>
-	<a id="TH40" href="http://livinglinklab.com/livinglinklab/devices/TH40/">TempHumidity (TH40)</a><br>
-	<a id="TH41" href="http://livinglinklab.com/livinglinklab/devices/TH41/">TempHumidity (TH41)</a><br>
-	<div style="width: 100%;height: auto; margin: 10px; position: relative;"><img src= "img/TempHumidity.svg"></div>
+<div class = "container">
+	<div>
+		<h3><b>TempHumidity</b></h3>
+		<a id="TH2" href="http://livinglinklab.com/livinglinklab/devices/TH2/">TempHumidity (TH2)</a><br>
+		<a id="TH3" href="http://livinglinklab.com/livinglinklab/devices/TH3/">TempHumidity (TH3)</a><br>
+		<a id="TH4" href="http://livinglinklab.com/livinglinklab/devices/TH4/">TempHumidity (TH4)</a><br>
+		<a id="TH5" href="http://livinglinklab.com/livinglinklab/devices/TH5/">TempHumidity (TH5)</a><br>
+		<a id="TH6" href="http://livinglinklab.com/livinglinklab/devices/TH6/">TempHumidity (TH6)</a><br>
+		<a id="TH7" href="http://livinglinklab.com/livinglinklab/devices/TH7/">TempHumidity (TH7)</a><br>
+		<a id="TH8" href="http://livinglinklab.com/livinglinklab/devices/TH8/">TempHumidity (TH8)</a><br>
+		<a id="TH9" href="http://livinglinklab.com/livinglinklab/devices/TH9/">TempHumidity (TH9)</a><br>
+		<a id="TH10" href="http://livinglinklab.com/livinglinklab/devices/TH10/">TempHumidity (TH10)</a><br>
+		<a id="TH11" href="http://livinglinklab.com/livinglinklab/devices/TH11/">TempHumidity (TH11)</a><br>
+		<a id="TH12" href="http://livinglinklab.com/livinglinklab/devices/TH12/">TempHumidity (TH12)</a><br>
+		<a id="TH13" href="http://livinglinklab.com/livinglinklab/devices/TH13/">TempHumidity (TH13)</a><br>
+		<a id="TH14" href="http://livinglinklab.com/livinglinklab/devices/TH14/">TempHumidity (TH14)</a><br>
+		<a id="TH16" href="http://livinglinklab.com/livinglinklab/devices/TH16/">TempHumidity (TH16)</a><br>
+		<a id="TH17" href="http://livinglinklab.com/livinglinklab/devices/TH17/">TempHumidity (TH17)</a><br>
+		<a id="TH18" href="http://livinglinklab.com/livinglinklab/devices/TH18/">TempHumidity (TH18)</a><br>
+		<a id="TH19" href="http://livinglinklab.com/livinglinklab/devices/TH19/">TempHumidity (TH19)</a><br>
+		<a id="TH20" href="http://livinglinklab.com/livinglinklab/devices/TH20/">TempHumidity (TH20)</a><br>
+		<a id="TH21" href="http://livinglinklab.com/livinglinklab/devices/TH21/">TempHumidity (TH21)</a><br>
+		<a id="TH22" href="http://livinglinklab.com/livinglinklab/devices/TH22/">TempHumidity (TH22)</a><br>
+		<a id="TH23" href="http://livinglinklab.com/livinglinklab/devices/TH23/">TempHumidity (TH23)</a><br>
+		<a id="TH24" href="http://livinglinklab.com/livinglinklab/devices/TH24/">TempHumidity (TH24)</a><br>
+		<a id="TH25" href="http://livinglinklab.com/livinglinklab/devices/TH25/">TempHumidity (TH25)</a><br>
+		<a id="TH26" href="http://livinglinklab.com/livinglinklab/devices/TH26/">TempHumidity (TH26)</a><br>
+		<a id="TH27" href="http://livinglinklab.com/livinglinklab/devices/TH27/">TempHumidity (TH27)</a><br>
+		<a id="TH28" href="http://livinglinklab.com/livinglinklab/devices/TH28/">TempHumidity (TH28)</a><br>
+		<a id="TH29" href="http://livinglinklab.com/livinglinklab/devices/TH29/">TempHumidity (TH29)</a><br>
+		<a id="TH30" href="http://livinglinklab.com/livinglinklab/devices/TH30/">TempHumidity (TH30)</a><br>
+		<a id="TH31" href="http://livinglinklab.com/livinglinklab/devices/TH31/">TempHumidity (TH31)</a><br>
+		<a id="TH32" href="http://livinglinklab.com/livinglinklab/devices/TH32/">TempHumidity (TH32)</a><br>
+		<a id="TH33" href="http://livinglinklab.com/livinglinklab/devices/TH33/">TempHumidity (TH33)</a><br>
+		<a id="TH34" href="http://livinglinklab.com/livinglinklab/devices/TH34/">TempHumidity (TH34)</a><br>
+		<a id="TH35" href="http://livinglinklab.com/livinglinklab/devices/TH35/">TempHumidity (TH35)</a><br>
+		<a id="TH38" href="http://livinglinklab.com/livinglinklab/devices/TH38/">TempHumidity (TH38)</a><br>
+		<a id="TH39" href="http://livinglinklab.com/livinglinklab/devices/TH39/">TempHumidity (TH39)</a><br>
+		<a id="TH40" href="http://livinglinklab.com/livinglinklab/devices/TH40/">TempHumidity (TH40)</a><br>
+		<a id="TH41" href="http://livinglinklab.com/livinglinklab/devices/TH41/">TempHumidity (TH41)</a><br>
+	</div>
+	<div><img src= "img/TH.svg">
+	</div>
 </div>
+<br>
 
-<h3><b>LightLevel</b></h3>
-<div>
+<div class = "container">
+	<div>
+	<h3><b>LightLevel</b></h3>
 	<a id="LL1" href="http://livinglinklab.com/livinglinklab/devices/LL1/">LightLevel (LL1)</a><br>
 	<a id="LL2" href="http://livinglinklab.com/livinglinklab/devices/LL2/">LightLevel (LL2)</a><br>
 	<a id="LL3" href="http://livinglinklab.com/livinglinklab/devices/LL3/">LightLevel (LL3)</a><br>
@@ -319,12 +352,18 @@ title: Sensors
 	<a id="LL42" href="http://livinglinklab.com/livinglinklab/devices/LL42/">LightLevel (LL42)</a><br>
 	<a id="LL43" href="http://livinglinklab.com/livinglinklab/devices/LL43/">LightLevel (LL43)</a><br>
 	<a id="LL44" href="http://livinglinklab.com/livinglinklab/devices/LL44/">LightLevel (LL44)</a><br>
-	<div style="width: 100%;height: auto; margin: 10px; position: relative;"><img src= "img/LightLevel.svg"></div>
+	</div>
+	<div><img src= "img/LL.svg">
+	</div>
 </div>
+<br>
 
-<h3><b>CO2</b></h3>
-<div>
+<div class = "container">
+	<div>
+	<h3><b>CO2</b></h3>
 	<a id="CO1" href="http://livinglinklab.com/livinglinklab/devices/CO1/">CO2 (CO1)</a><br>
 	<a id="CO3" href="http://livinglinklab.com/livinglinklab/devices/CO3/">CO2 (CO3)</a>
-	<div style="width: 100%;height: auto; margin: 10px; position: relative;"><img src= "img/CO2.svg"></div>
+	</div>
+	<div><img src= "img/CO.svg">
+	</div>
 </div>
