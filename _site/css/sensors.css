@@ -326,7 +326,7 @@ table td { border: 1px solid #e8e8e8; }
 	height: auto;
 }
 
-@media screen and (max-width: 800px) { .uml {padding-right: 15px;} } 
+@media screen and (max-width: 800px) { .uml {padding-right: 15px;} ul.breadcrumb {display: none;}}
 
 
 /* Style the list */
