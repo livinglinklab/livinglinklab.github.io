@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-11T10:56:14-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Living Link Lab</title><subtitle>The Living Link Lab is a platform at the University of Virginia that enables long term naturalistic occupant studies.</subtitle><entry><title type="html">Health, well-being and productivity of Link Lab Residents</title><link href="http://localhost:4000/jekyll/update/2020/03/03/ll_wellbeing.html" rel="alternate" type="text/html" title="Health, well-being and productivity of Link Lab Residents" /><published>2020-03-03T09:00:00-05:00</published><updated>2020-03-03T09:00:00-05:00</updated><id>http://localhost:4000/jekyll/update/2020/03/03/ll_wellbeing</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/03/03/ll_wellbeing.html">&lt;p&gt;The project aims at understanding the relationship between environmental as well as human contexts and health, well-being and productivity of
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-15T16:55:14-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Living Link Lab</title><subtitle>The Living Link Lab is a platform at the University of Virginia that enables long term naturalistic occupant studies.</subtitle><entry><title type="html">Is my sensor sleeping, hibernating, or broken?</title><link href="http://localhost:4000/jekyll/update/2020/11/14/ll_buildsys2020.html" rel="alternate" type="text/html" title="Is my sensor sleeping, hibernating, or broken?" /><published>2020-11-14T23:00:00-05:00</published><updated>2020-11-14T23:00:00-05:00</updated><id>http://localhost:4000/jekyll/update/2020/11/14/ll_buildsys2020</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/11/14/ll_buildsys2020.html">&lt;p&gt;Is my sensor sleeping, hibernating, or broken? A data-driven monitoring system for indoor energy harvesting sensors. Accepted submission to &lt;a href=&quot;http://buildsys.acm.org/2020/&quot;&gt; BuildSys 2020&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We assessed a Energy Harvesting Housekeeping System by deploying 125 energy-harvesting sensors of varying types in a 17,000 square foot research infrastructure, randomly masking a quarter of the sensors as the test set for validation. The results of our 6-month data-collection period demonstrate an average greater than 80% accuracy in predicting the health status of the subset. Our results validate techniques for assessing sensor health status across device types, for inferring gateway status, and approaches to assist in identifying between gateway, transmission, and sensor faults.&lt;/p&gt;
+
+&lt;h4&gt; Resources &lt;/h4&gt;
+&lt;ul&gt;
+	&lt;li&gt; &lt;a href=&quot;https://virginia.box.com/s/h3xdhr6j1kfaegx7drff6k3lushxett5&quot; target=&quot;_blank&quot;&gt; Link to the data set &lt;/a&gt; &lt;/li&gt;
+	&lt;li&gt; BuildSys Opening Video &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cROAFv8uKAM?&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt; Graduate Students &lt;/h4&gt;
+&lt;ul&gt;
+	&lt;li&gt; &lt;a href=&quot;http://uvabrainlab.com/about/#AlanWang&quot; target=&quot;_blank&quot;&gt; Alan Wang &lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt; Jianyu Su&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt; Faculty &lt;/h4&gt;
+&lt;ul&gt;
+	&lt;li&gt; &lt;a href=&quot;https://engineering.virginia.edu/faculty/arsalan-heydarian&quot; target=&quot;_blank&quot;&gt; Arsalan Heydarian &lt;/a&gt; &lt;/li&gt;
+	&lt;li&gt; &lt;a href=&quot;https://engineering.virginia.edu/faculty/brad-campbell&quot; target=&quot;_blank&quot;&gt; Brad Campbell &lt;/a&gt; &lt;/li&gt;
+	&lt;li&gt; &lt;a href=&quot;https://engineering.virginia.edu/faculty/peter-beling&quot; target=&quot;_blank&quot;&gt; Peter Beling &lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Is my sensor sleeping, hibernating, or broken? A data-driven monitoring system for indoor energy harvesting sensors. Accepted submission to BuildSys 2020.</summary></entry><entry><title type="html">Health, well-being and productivity of Link Lab Residents</title><link href="http://localhost:4000/jekyll/update/2020/03/03/ll_wellbeing.html" rel="alternate" type="text/html" title="Health, well-being and productivity of Link Lab Residents" /><published>2020-03-03T09:00:00-05:00</published><updated>2020-03-03T09:00:00-05:00</updated><id>http://localhost:4000/jekyll/update/2020/03/03/ll_wellbeing</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/03/03/ll_wellbeing.html">&lt;p&gt;The project aims at understanding the relationship between environmental as well as human contexts and health, well-being and productivity of
 individuals working in Link Lab.&lt;/p&gt;
 
 &lt;p&gt;As people go about their daily lives, their everyday experience captured using actively and passively collected data from smartphones, smartwatches or
@@ -27,9 +48,12 @@ captured by smart devices relates with the well-being of Link Lab residents in t
 &lt;p&gt;We are testing the following:&lt;/p&gt;
 
 &lt;ol&gt;
-	&lt;li&gt; That the sensors all work as expected &lt;/li&gt;
- 	&lt;li&gt; That the website works with each link &lt;/li&gt;
-	&lt;li&gt; Test the navigation of users through our information site &lt;/li&gt;
+	&lt;li&gt; Checking the location of the sensors &lt;/li&gt;
+ 	&lt;li&gt; Checking for valid links in the website &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">We are soft launching the Living Link Lab framework!</summary></entry></feed>
+&lt;!-- Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/ --&gt;</content><author><name></name></author><summary type="html">We are soft launching the Living Link Lab framework!</summary></entry></feed>

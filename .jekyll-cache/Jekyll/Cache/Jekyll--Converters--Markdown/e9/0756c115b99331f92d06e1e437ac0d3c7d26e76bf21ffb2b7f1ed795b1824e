@@ -1,0 +1,23 @@
+I"ß<p>Is my sensor sleeping, hibernating, or broken? A data-driven monitoring system for indoor energy harvesting sensors. Accepted submission to <a href="http://buildsys.acm.org/2020/"> BuildSys 2020</a>.</p>
+
+<p>We assessed a Energy Harvesting Housekeeping System by deploying 125 energy-harvesting sensors of varying types in a 17,000 square foot research infrastructure, randomly masking a quarter of the sensors as the test set for validation. The results of our 6-month data-collection period demonstrate an average greater than 80% accuracy in predicting the health status of the subset. Our results validate techniques for assessing sensor health status across device types, for inferring gateway status, and approaches to assist in identifying between gateway, transmission, and sensor faults.</p>
+
+<h4> Resources </h4>
+<ul>
+	<li> <a href="https://virginia.box.com/s/h3xdhr6j1kfaegx7drff6k3lushxett5" target="_blank"> Link to the data set </a> </li>
+	<li> BuildSys Opening Video <iframe width="560" height="315" src="https://www.youtube.com/embed/cROAFv8uKAM?start=20" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe> </li>
+</ul>
+
+<h4> Graduate Students </h4>
+<ul>
+	<li> <a href="http://uvabrainlab.com/about/#AlanWang" target="_blank"> Alan Wang </a></li>
+	<li> Jianyu Su</li>
+</ul>
+
+<h4> Faculty </h4>
+<ul>
+	<li> <a href="https://engineering.virginia.edu/faculty/arsalan-heydarian" target="_blank"> Arsalan Heydarian </a> </li>
+	<li> <a href="https://engineering.virginia.edu/faculty/brad-campbell" target="_blank"> Brad Campbell </a> </li>
+	<li> <a href="https://engineering.virginia.edu/faculty/peter-beling" target="_blank"> Peter Beling </a> </li>
+</ul>
+:ET
