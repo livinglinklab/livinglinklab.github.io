@@ -326,6 +326,10 @@ table td { border: 1px solid #e8e8e8; }
 	height: auto;
 }
 
+.notshown{
+	display: none;
+}
+
 @media screen and (max-width: 800px) { .uml {padding-right: 15px;} ul.breadcrumb {display: none;}}
 
 
