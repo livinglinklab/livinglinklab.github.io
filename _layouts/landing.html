@@ -162,7 +162,7 @@
     </div>
 
     <div class="container pb-3">
-      <h2 class="pb-3 pt-5"> Students </h2>
+      <h2 class="pb-3 pt-5"> Current Students </h2>
       <div class="row">
         {% assign students = site.students | sort: 'weight' %}
         {% for member in students %}
@@ -177,6 +177,22 @@
             </div>
         {% endfor %}
     </div>
+    <!-- <div class="container pb-3">
+      <h2 class="pb-3 pt-5"> Past Students </h2>
+      <div class="row">
+        {% assign students = site.past_students | sort: 'weight' %}
+        {% for member in students %}
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card border-0 shadow">
+                <img src={{member.image_link}} class="card-img-top bw-img" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0">{{member.name}}</h5>
+                  <div class="card-text text-black-50">{{member.description}}</div>
+                </div>
+              </div>
+            </div>
+        {% endfor %}
+    </div> -->
     <!-- /.container -->
   </section>
 

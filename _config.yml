@@ -36,6 +36,7 @@ collections_dir: my_collections
 collections:
   - faculty
   - students
+  - past_students
 
 
 # Exclude from processing.
