@@ -1,4 +1,10 @@
-# 2022 Fall Smart & Healthy building TPC Meeting
+
+---
+layout: post
+title:  "2022 Fall Smart & Healthy building TPC Meeting"
+date:   2022-12-09 00:00:00 -0400
+categories: jekyll update
+---
 
 - [Introduction](#introduction)
 - [Time and Location](#time-and-location)
@@ -42,8 +48,8 @@ Opportunity for a class discussion about the class as a whole, expectations vs. 
 
 ## Papers and codes
 ### Data-Driven Energy Estimation for Indoor Solar-Powered Energy Harvesting Sensors
-[Github](https://github.com/viswajith-g/Data-Driven-Energy-Estimation-for-Indoor-Solar-Powered-Energy-Harvesting-Sensors)
- [Paper](https://drive.google.com/file/d/1O9KsrmuXDvobtZ76O8dullRSnuPDG0jB/view?usp=share_link)
+<a href="https://dl.acm.org/doi/10.1145/3408308.342762](https://github.com/viswajith-g/Data-Driven-Energy-Estimation-for-Indoor-Solar-Powered-Energy-Harvesting-Sensors"> Github </a>
+<a href="https://drive.google.com/file/d/1O9KsrmuXDvobtZ76O8dullRSnuPDG0jB/view?usp=share_link"> Paper </a>
 **Authors**: Viswajith Govinda Rajan, Zoraiz Qureshi, Akash Nair, Zichuan Guo
 **Abstract**: Energy generation fluctuation leads to uncertainty in the estimation of energy availability which can influence the design of in-door energy harvesting Internet of Things (IoT) devices. Lux sensors may also not be available every time for this estimation, and their estimation is very sensitive to placement. We explore methods for robust data-driven estimation of energy availability for indoor energy harvesting sensors, focusing specifically on solar-powered sensors from different sensors as sources such as motion and acoustic noise sensor data.  
 
