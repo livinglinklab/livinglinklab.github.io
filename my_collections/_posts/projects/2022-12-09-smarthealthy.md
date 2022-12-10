@@ -1,5 +1,5 @@
 
-# "2022 Fall Smart & Healthy building TPC Meeting"
+# 2022 Fall Smart & Healthy building TPC Meeting
 
 
 - [Introduction](#introduction)
