@@ -1,10 +1,6 @@
 
----
-layout: post
-title:  "2022 Fall Smart & Healthy building TPC Meeting"
-date:   2022-12-09 00:00:00 -0400
-categories: jekyll update
----
+# "2022 Fall Smart & Healthy building TPC Meeting"
+
 
 - [Introduction](#introduction)
 - [Time and Location](#time-and-location)
